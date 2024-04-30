@@ -48,4 +48,4 @@ remix_audio some_video
 ## Future features
 - [ ] Retain bluring around some extra frames to avoid face exposures.
 - [ ] Tracking faces for an even improved privacy.
-- [ ] Smooth eliptical blurring (instead of a rectangle).
+- [ ] Smoothed elliptical blurring (instead of rectangles).
