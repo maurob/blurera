@@ -7,7 +7,7 @@ from PIL import Image
 
 
 model = YoloDetector(target_size=720, device="cpu", min_face=10)
-fps = 60
+fps = float(os.environ.get("FPS", 60))
 
 
 def main():
