@@ -38,9 +38,9 @@ ffmpeg -i some_video_blurred.mp4 some_video_blurred_final.mp4
 
 To include also the original audio into the final video
 ```sh
-ffmpeg -i face_small.mp4 -i face_small_blurred.mp4 -c:a copy -map 1:v:0 -map 0:a:0 some_video_blurred_final.mp4
+ffmpeg -i some_video.mp4 -i some_video_blurred.mp4 -c:a copy -map 1:v:0 -map 0:a:0 some_video_blurred_final.mp4
 ```
 or use the shell funcion `remix_audio` (which have some limitations)
 ```sh
-remix_audio face_small
+remix_audio some_video
 ```
