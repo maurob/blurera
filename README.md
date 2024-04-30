@@ -44,3 +44,8 @@ or use the shell funcion `remix_audio` (which have some limitations)
 ```sh
 remix_audio some_video
 ```
+
+## Future features
+- [ ] Retain bluring around some extra frames to avoid face exposures.
+- [ ] Tracking faces for a improved blur efectivity.
+- [ ] Smooth eliptical blurring (instead of a rectangle).
