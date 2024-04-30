@@ -17,3 +17,9 @@ The first time execute `build`.
 blur_video_faces some_video.mp4
 ```
 For this example, it'll generate `some_video_blurred.mp4`.
+
+The default output FPS is 60 Hz. To change it just define the `FPS` environ, like
+
+```sh
+FPS=30 blur_video_faces some_video.mp4
+```
