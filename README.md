@@ -1,6 +1,8 @@
 # Blurera
 
-Proyect based on https://github.com/elyha7/yoloface.git
+Automatic blur faces in videos.
+
+Project based on https://github.com/elyha7/yoloface.git.
 
 ## Use case
 
