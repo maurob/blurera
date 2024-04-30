@@ -31,7 +31,7 @@ FPS=30 blur_video_faces some_video.mp4
 
 ### Post proccessing
 
-For a better video compatibility an reduce size, use `ffmpeg`.
+For a better video compatibility an reduced size, use `ffmpeg`.
 ```sh
 ffmpeg -i some_video_blurred.mp4 some_video_blurred_final.mp4
 ```
